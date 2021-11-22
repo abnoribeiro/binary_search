@@ -1,6 +1,7 @@
 # binary_search
 Example binary search in javascript
 
+{
 var list = [1, 3, 5, 7, 9, 15];
 
 const binary_search = (list, item) => {
@@ -23,16 +24,4 @@ const binary_search = (list, item) => {
     }
     return "None"     
 }
-
-binary_search(list, 1)
-
-❶ baixo e alto acompanham a parte da lista que você está procurando.
-❷ Enquanto ainda não conseguiu chegar a um único elemento...
-❸ … verica o elemento central.
-❹ Acha o item.
-❺ O chute foi muito alto.
-❻ O chute foi muito baixo.
-❼ O item não existe.
-❽ Vamos testá-lo!
-❾ Lembre-se, as listas começam no 0. O próximo endereço tem índice 1.
-❿ “None” signica nulo em Python. Ele indica que o item não foi encontrado.
+}
